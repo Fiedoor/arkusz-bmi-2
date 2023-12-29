@@ -1,0 +1,4 @@
+Kwerenda 1: INSERT INTO `wynik`( `bmi_id`, `data_pomiaru`, `wynik`) VALUES ('1','2020-05-20','15')
+Kwerenda 2: SELECT id,informacja,wart_min FROM `bmi`;
+Kwerenda 3: SELECT wynik,informacja FROM bmi INNER JOIN wynik ON wynik.bmi_id=bmi.id;
+Kwerenda 4: SELECT wart_min,wart_max FROM bmi WHERE informacja='niedowaga';
